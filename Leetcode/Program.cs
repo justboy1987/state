@@ -10,6 +10,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
+            RemoveElement.RemoveElement2(new int[] { 3,2,2,3}, 3);
         }
     }
 }
