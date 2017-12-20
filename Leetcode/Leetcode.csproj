@@ -43,12 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\TreeNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveElement.cs" />
     <Compile Include="ReverseInteger.cs" />
     <Compile Include="SearchInsertPosition.cs" />
     <Compile Include="StringtoInteger.cs" />
+    <Compile Include="Tree\BinaryTreeInorderTraversal.cs" />
+    <Compile Include="Tree\UniqueBinarySearchTrees.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
