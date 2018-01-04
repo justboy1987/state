@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Leetcode.Tree;
 
 namespace Leetcode
 {
@@ -10,7 +11,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            RemoveElement.RemoveElement2(new int[] { 3,2,2,3}, 3);
+            UniqueBinarySearchTrees.NumTrees(2);
         }
     }
 }

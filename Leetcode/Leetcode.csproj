@@ -51,12 +51,17 @@
     <Compile Include="ReverseInteger.cs" />
     <Compile Include="SameTree.cs" />
     <Compile Include="SearchInsertPosition.cs" />
+    <Compile Include="Sort\BubbleSort.cs" />
+    <Compile Include="Sort\InsertionSort.cs" />
+    <Compile Include="Sort\SelectionSort.cs" />
+    <Compile Include="Sort\ShellSort.cs" />
     <Compile Include="StringtoInteger.cs" />
     <Compile Include="TrimaBinarySearchTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
