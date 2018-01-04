@@ -28,12 +28,11 @@ namespace Leetcode.Sort
             return minPos;
         }
 
-        public static void exchange(int[] data, int m, int n)
+        private static void exchange(int[] data, int m, int n)
         {
             int temporary;
 
             temporary = data[m];
-            data[m] = data[n];
             data[n] = temporary;
         }
     }
