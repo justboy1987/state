@@ -32,5 +32,30 @@ namespace Leetcode.Sort
             a[s] = pivot;
             return s;
         }
+
+
+        public static int QuickSeleckKth(int[] a, int k)
+        {
+            int begin = 0, end = a.Length;
+            int traget = 0;
+            while (begin < end)
+            {
+                var pos = Partition(a, begin, end);
+                if (pos == k - 1)
+                {
+                    traget = a[pos];
+                    break;
+                }else if (pos > k - 1)
+                {
+                    end = pos - 1;
+                }
+                else
+                {
+                    begin = pos + 1;
+                }
+            }
+            return traget;
+
+        }
     }
 }
