@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\TwoSum.cs" />
+    <Compile Include="IntersectionofTwoArrays.cs" />
     <Compile Include="NumberComplement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,7 +53,11 @@
     <Compile Include="SameTree.cs" />
     <Compile Include="SearchInsertPosition.cs" />
     <Compile Include="Sort\BubbleSort.cs" />
+    <Compile Include="Sort\HeadSort.cs" />
     <Compile Include="Sort\InsertionSort.cs" />
+    <Compile Include="Sort\MergeSort.cs" />
+    <Compile Include="Sort\QuickSort.cs" />
+    <Compile Include="Sort\RadixSort.cs" />
     <Compile Include="Sort\SelectionSort.cs" />
     <Compile Include="Sort\ShellSort.cs" />
     <Compile Include="StringtoInteger.cs" />
