@@ -67,6 +67,8 @@
     <Compile Include="Tree\BinaryTreeInorderTraversal.cs" />
     <Compile Include="Tree\BinaryTreeTilt.cs" />
     <Compile Include="Tree\Diameter of Binary Tree.cs" />
+    <Compile Include="Tree\Invert Binary Tree.cs" />
+    <Compile Include="Tree\Longest Univalue Path.cs" />
     <Compile Include="Tree\Minimum Depth of Binary Tree.cs" />
     <Compile Include="Tree\Path Sum II.cs" />
     <Compile Include="Tree\Path Sum.cs" />
