@@ -8,32 +8,18 @@ namespace Leetcode.Tree
 {
     class Binary_Tree_Paths
     {
-        IList<string> list = new List<string>();
         public IList<string> BinaryTreePaths(TreeNode root)
         {
-            Helper(root, new List<TreeNode> ());
-            return list;
+            List<string> answer = new List<string>();
+            if (root != null) searchBT(root, "", answer);
+            return answer;
         }
 
-        private void Helper(TreeNode root, List<TreeNode> path)
+        private void searchBT(TreeNode root, string path, List<string> answer)
         {
-            if (root == null)
-            {
-                return;
-            }
-            path.Add(root);
-            if (root.left == null && root.right == null)
-            {
-                list.Add(GetPathStr(path));
-            }
-            Helper(root.left, path);
-            Helper(root.right, path);
-            path.RemoveAt(path.Count -1);
-        }
-
-        private string GetPathStr(List<TreeNode> path)
-        {
-            return string.Join("->", path.Select(item => item.val).ToArray());
+            if (root.left == null && root.right == null) answer.Add(path + root.val);
+            if (root.left != null) searchBT(root.left, path + root.val + "->", answer);
+            if (root.right != null) searchBT(root.right, path + root.val + "->", answer);
         }
 
     }
