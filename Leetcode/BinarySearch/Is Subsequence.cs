@@ -18,7 +18,7 @@ namespace Leetcode.BinarySearch
                     j++;
                 }
             }
-            return j == s.Length - 1;
+            return j == s.Length;
         }
     }
 }

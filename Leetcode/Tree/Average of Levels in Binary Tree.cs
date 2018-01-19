@@ -10,6 +10,8 @@ namespace Leetcode.Tree
     {
         public IList<double> AverageOfLevels(TreeNode root)
         {
+            var ret = new List<double>();
+            var queue = new Queue<TreeNode>();
 
         }
     }

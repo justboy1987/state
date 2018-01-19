@@ -44,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\TwoSum.cs" />
+    <Compile Include="BinarySearch\Find Smallest Letter Greater Than Target.cs" />
+    <Compile Include="BinarySearch\Is Subsequence.cs" />
+    <Compile Include="BinarySearch\Kth Smallest Element in a Sorted Matrix.cs" />
+    <Compile Include="BinarySearch\kth-smallest-number-in-multiplication-table.cs" />
+    <Compile Include="BinarySearch\Two Sum II - Input array is sorted.cs" />
     <Compile Include="BinaryTreeInorderTraversal.cs" />
     <Compile Include="IntersectionofTwoArrays.cs" />
     <Compile Include="NumberComplement.cs" />
@@ -63,12 +68,14 @@
     <Compile Include="Sort\ShellSort.cs" />
     <Compile Include="StringtoInteger.cs" />
     <Compile Include="SubarrayWithGivenSum.cs" />
+    <Compile Include="Tree\Average of Levels in Binary Tree.cs" />
     <Compile Include="Tree\Binary Tree Paths.cs" />
     <Compile Include="Tree\BinaryTreeInorderTraversal.cs" />
     <Compile Include="Tree\BinaryTreeTilt.cs" />
     <Compile Include="Tree\Diameter of Binary Tree.cs" />
     <Compile Include="Tree\Invert Binary Tree.cs" />
     <Compile Include="Tree\Longest Univalue Path.cs" />
+    <Compile Include="Tree\Maximum Binary Tree.cs" />
     <Compile Include="Tree\Minimum Depth of Binary Tree.cs" />
     <Compile Include="Tree\Path Sum II.cs" />
     <Compile Include="Tree\Path Sum.cs" />
