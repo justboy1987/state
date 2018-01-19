@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\TwoSum.cs" />
+    <Compile Include="BinarySearch\Find Minimum in Rotated Sorted Array.cs" />
     <Compile Include="BinarySearch\Find Smallest Letter Greater Than Target.cs" />
     <Compile Include="BinarySearch\Is Subsequence.cs" />
     <Compile Include="BinarySearch\Kth Smallest Element in a Sorted Matrix.cs" />
