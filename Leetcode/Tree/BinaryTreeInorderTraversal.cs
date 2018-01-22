@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Leetcode.Models;
 
 namespace Leetcode.Tree
 {
@@ -11,12 +10,12 @@ namespace Leetcode.Tree
     /// 94. Binary Tree Inorder Traversal
     /// https://leetcode.com/problems/binary-tree-inorder-traversal/description/
     /// </summary>
-    public class BinaryTreeInorderTraversal
+    public class BinaryTreeInorderTraversal3
     {
         public IList<int> InorderTraversal(TreeNode root)
         {
             var list = new List<int>();
-            Solution1(root, list);
+           // Solution1(root, list);
             return list;
         }
 
@@ -26,9 +25,9 @@ namespace Leetcode.Tree
             {
                 return;
             }
-            Solution1(root.left, list);
+          //  Solution1(root.left, list);
             list.Add(root.val);
-            Solution1(root.right, list);
+          //  Solution1(root.right, list);
         }
     }
 }

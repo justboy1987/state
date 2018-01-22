@@ -10,7 +10,7 @@ namespace Leetcode.Tree
     /// Unique Binary Search Trees
     /// https://leetcode.com/problems/unique-binary-search-trees/description/
     /// </summary>
-    public class UniqueBinarySearchTrees
+    public class UniqueBinarySearchTrees2
     {
         public static int NumTrees(int n)
         {

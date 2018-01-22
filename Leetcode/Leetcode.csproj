@@ -49,6 +49,7 @@
     <Compile Include="BinarySearch\Is Subsequence.cs" />
     <Compile Include="BinarySearch\Kth Smallest Element in a Sorted Matrix.cs" />
     <Compile Include="BinarySearch\kth-smallest-number-in-multiplication-table.cs" />
+    <Compile Include="BinarySearch\Search in Rotated Sorted Array.cs" />
     <Compile Include="BinarySearch\Two Sum II - Input array is sorted.cs" />
     <Compile Include="BinaryTreeInorderTraversal.cs" />
     <Compile Include="IntersectionofTwoArrays.cs" />
