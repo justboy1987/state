@@ -13,18 +13,12 @@ namespace Leetcode.Dynamic_Programming
     {
         public int MinCostClimbingStairs(int[] cost)
         {
-            if (cost == null || cost.Length <= 2)
+            for (int i = 2; i <= cost.Length - 1; i++)
             {
-                return 0;
+                cost[i] = cost[i] + Math.Min(cost[i - 1], cost[i - 2]);
             }
-            var sum = new int[cost.Length+1];
-            sum[0] = 0;
-            sum[1] = 0;
-            for (int i = 2; i <= cost.Length; i++)
-            {
-                sum[i] = Math.Min(sum[i - 1] + cost[i - 1], sum[i - 2] + cost[i - 2]);
-            }
-            return sum.Last();
+
+            return Math.Min(cost[cost.Length - 1], cost[cost.Length - 2]);
         }
     }
 }
