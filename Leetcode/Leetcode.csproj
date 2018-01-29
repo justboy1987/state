@@ -61,9 +61,11 @@
     <Compile Include="Dynamic Programming\Best Time to Buy and Sell Stock.cs" />
     <Compile Include="Dynamic Programming\Climbing Stairs.cs" />
     <Compile Include="Dynamic Programming\House Robber.cs" />
+    <Compile Include="Dynamic Programming\Longest Continuous Increasing Subsequence.cs" />
     <Compile Include="Dynamic Programming\Longest Increasing Subsequence.cs" />
     <Compile Include="Dynamic Programming\Maximum Subarray.cs" />
     <Compile Include="Dynamic Programming\Min Cost Climbing Stairs.cs" />
+    <Compile Include="Dynamic Programming\Number of Longest Increasing Subsequence.cs" />
     <Compile Include="Dynamic Programming\Range Sum Query - Immutable.cs" />
     <Compile Include="IntersectionofTwoArrays.cs" />
     <Compile Include="NumberComplement.cs" />
