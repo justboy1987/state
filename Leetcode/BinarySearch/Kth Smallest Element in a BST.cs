@@ -13,7 +13,7 @@ namespace Leetcode.BinarySearch
         public int KthSmallest(TreeNode root, int k)
         {
             K = k;
-            PreOrder(root);
+            //PreOrder(root);
             return Kth;
         }
 

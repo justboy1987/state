@@ -49,6 +49,7 @@
     <Compile Include="BinarySearch\Find Smallest Letter Greater Than Target.cs" />
     <Compile Include="BinarySearch\First Bad Version.cs" />
     <Compile Include="BinarySearch\Is Subsequence.cs" />
+    <Compile Include="BinarySearch\Kth Smallest Element in a BST.cs" />
     <Compile Include="BinarySearch\Kth Smallest Element in a Sorted Matrix.cs" />
     <Compile Include="BinarySearch\kth-smallest-number-in-multiplication-table.cs" />
     <Compile Include="BinarySearch\Search for a Range.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="Dynamic Programming\Best Time to Buy and Sell Stock.cs" />
     <Compile Include="Dynamic Programming\Climbing Stairs.cs" />
     <Compile Include="Dynamic Programming\House Robber.cs" />
+    <Compile Include="Dynamic Programming\Longest Increasing Subsequence.cs" />
     <Compile Include="Dynamic Programming\Maximum Subarray.cs" />
     <Compile Include="Dynamic Programming\Min Cost Climbing Stairs.cs" />
     <Compile Include="Dynamic Programming\Range Sum Query - Immutable.cs" />
@@ -86,6 +88,7 @@
     <Compile Include="Tree\BinaryTreeInorderTraversal.cs" />
     <Compile Include="Tree\BinaryTreeTilt.cs" />
     <Compile Include="Tree\Diameter of Binary Tree.cs" />
+    <Compile Include="Tree\Find Bottom Left Tree Value.cs" />
     <Compile Include="Tree\Invert Binary Tree.cs" />
     <Compile Include="Tree\Longest Univalue Path.cs" />
     <Compile Include="Tree\Maximum Binary Tree.cs" />

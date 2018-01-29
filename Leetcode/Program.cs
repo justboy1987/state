@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Leetcode.BinarySearch;
+using Leetcode.Dynamic_Programming;
 using Leetcode.Tree;
 
 namespace Leetcode
@@ -12,7 +13,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            var a = Find_Minimum_in_Rotated_Sorted_Array.FindMin2(new[] {3, 3, 3,1,3});
+            var a = Longest_Increasing_Subsequence.lengthOfLIS3(new[] {4, 10, 4, 3, 8, 9});
             Console.WriteLine(a);
         }
     }
