@@ -97,5 +97,41 @@ namespace Leetcode.Dynamic_Programming
 
             return lo;
         }
+
+        /// <summary>
+        /// 比较好理解的做法
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public static int lengthOfLIS4(int[] nums)
+        {
+            if (nums == null || nums.Length == 0) { return 0; }
+            int[] dp = new int[nums.Length];
+            int len = 0;
+            foreach (var num in nums)
+            {
+                int l = 0, h = len;
+                while (l < h)
+                {
+                    var mid = l + (h - l) / 2;
+                    if (dp[mid] < num)
+                    {
+                        l = mid + 1;
+                    }
+                    else
+                    {
+                        h = mid;
+                    }
+                }
+                dp[l] = num;
+                if (l == len)
+                {
+                    len++;
+                }
+            }
+            
+            return len;
+        }
+
     }
 }

@@ -13,7 +13,7 @@ namespace Leetcode
     {
         static void Main(string[] args)
         {
-            var a = Number_of_Longest_Increasing_Subsequence.FindNumberOfLIS(new[] {4, 10, 4, 3, 8, 9});
+            var a = Longest_Increasing_Subsequence.lengthOfLIS4(new[] {10, 9, 2, 5, 3, 7, 101, 18});
             Console.WriteLine(a);
         }
     }
