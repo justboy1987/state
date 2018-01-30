@@ -91,6 +91,7 @@
     <Compile Include="Tree\BinaryTreeTilt.cs" />
     <Compile Include="Tree\Diameter of Binary Tree.cs" />
     <Compile Include="Tree\Find Bottom Left Tree Value.cs" />
+    <Compile Include="Tree\Find Largest Value in Each Tree Row.cs" />
     <Compile Include="Tree\Invert Binary Tree.cs" />
     <Compile Include="Tree\Longest Univalue Path.cs" />
     <Compile Include="Tree\Maximum Binary Tree.cs" />
