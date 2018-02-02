@@ -58,11 +58,14 @@
     <Compile Include="BinarySearch\sqrt.cs" />
     <Compile Include="BinarySearch\Two Sum II - Input array is sorted.cs" />
     <Compile Include="BinaryTreeInorderTraversal.cs" />
+    <Compile Include="Dynamic Programming\Best Time to Buy and Sell Stock II.cs" />
+    <Compile Include="Dynamic Programming\Best Time to Buy and Sell Stock with Transaction Fee.cs" />
     <Compile Include="Dynamic Programming\Best Time to Buy and Sell Stock.cs" />
     <Compile Include="Dynamic Programming\Climbing Stairs.cs" />
     <Compile Include="Dynamic Programming\House Robber.cs" />
     <Compile Include="Dynamic Programming\Longest Continuous Increasing Subsequence.cs" />
     <Compile Include="Dynamic Programming\Longest Increasing Subsequence.cs" />
+    <Compile Include="Dynamic Programming\Maximum Length of Pair Chain.cs" />
     <Compile Include="Dynamic Programming\Maximum Subarray.cs" />
     <Compile Include="Dynamic Programming\Min Cost Climbing Stairs.cs" />
     <Compile Include="Dynamic Programming\Number of Longest Increasing Subsequence.cs" />

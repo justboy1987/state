@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Leetcode.Dynamic_Programming
 {
+    /// <summary>
+    /// https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+    /// </summary>
     class Best_Time_to_Buy_and_Sell_Stock
     {
         public int MaxProfit(int[] prices)
