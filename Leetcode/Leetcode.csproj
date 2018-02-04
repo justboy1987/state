@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\3Sum Closest.cs" />
     <Compile Include="Array\3Sum.cs" />
     <Compile Include="Array\TwoSum.cs" />
     <Compile Include="BinarySearch\Arranging Coins.cs" />
