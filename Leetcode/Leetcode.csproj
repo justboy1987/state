@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\3Sum.cs" />
     <Compile Include="Array\TwoSum.cs" />
     <Compile Include="BinarySearch\Arranging Coins.cs" />
     <Compile Include="BinarySearch\Find Minimum in Rotated Sorted Array.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Sort\SelectionSort.cs" />
     <Compile Include="Sort\ShellSort.cs" />
     <Compile Include="StringtoInteger.cs" />
+    <Compile Include="Strings\Implement strStr.cs" />
     <Compile Include="SubarrayWithGivenSum.cs" />
     <Compile Include="Tree\Average of Levels in Binary Tree.cs" />
     <Compile Include="Tree\Binary Tree Paths.cs" />

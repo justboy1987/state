@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Sockets;
@@ -50,9 +51,9 @@ The number of given pairs will be in the range [1, 1000].
         }
     }
 
-    public static class MyEnumerableExtension<T>
+    public static class MyEnumerableExtension
     {
-        public static IEnumerable<T> AsEnumerable(this T[,] arr)
+        public static IEnumerable AsEnumerable(this int[,] arr)
         {
             for (int i = 0; i < arr.GetLength(0); i++)
             for (int j = 0; j < arr.GetLength(1); j++)
